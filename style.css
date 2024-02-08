@@ -1,0 +1,261 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+      background-color: #fff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #dbdbdb;
+  }
+
+  .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px;
+      background-color: aqua;
+      color: #fff;
+      text-shadow: 1px 1px 1px black;
+      border-radius: 30px;
+  }
+
+  .navbar-icon {
+      display: none;
+      cursor: pointer;
+      font-size: 24px;
+  }
+
+  .navbar-menu {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+
+  .navbar-menu li {
+      margin-right: 20px;
+  }
+
+  .profile {
+      text-align: center;
+      margin-top: 50px;
+  }
+
+  .profile img {
+      border-radius: 50%;
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+  }
+
+  .description h2 {
+      text-align: left;
+      margin-left: 10px;
+      color: aqua;
+      text-shadow: 1px 1px 1px black;
+  }
+
+  .description p {
+      text-align: left;
+      margin-left: 10px;
+      color: #474853;
+      font-size: 15px;
+  }
+
+  .description span {
+     color: #fff;
+    font-size: 20px;
+  }
+
+  .tombol {
+    padding: 10px;
+    width: 100px;
+    background-color: aqua;
+    margin-left: 10px;
+    border: 1px solid #FFF9F9;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .tombol a:hover {
+    color: #4BB2C8;
+  }
+.tombol a {
+color: #fff;
+text-decoration: none;
+}
+  hr {
+      margin-top: 60px;
+  }
+.tentang p{
+color: #474853;
+font-size: 15px;
+margin-left: 5px;
+}
+.tentang  {
+margin-left: 10px;
+}
+img {
+width: 300px;
+
+}
+.tentang h2{
+color: aqua;
+text-shadow: 1px 1px 1px black;
+}
+.tkj {
+padding: 10px;
+width: 100px;
+background-color: aqua;
+margin-left: 10px;
+border: 1px solid #FFF9F9;
+text-align: center;
+border-radius: 5px;
+
+}
+.tkj a{
+color: white;
+font-size: 17px;
+text-shadow: 1px 1px 1px black;
+text-decoration: none;
+}
+p {
+color: #474853;
+font-size: 15px;
+margin-left: 5px;
+}
+.about p{
+color: #474853;
+font-size: 15px;
+margin-left: 5px;
+text-align: left;
+}
+.about h2{
+color: aqua;
+text-shadow: 1px 1px 1px black;
+}
+.about {
+margin-left: 10px;
+}
+.kontak-container {
+text-align: center;
+color: white;
+background-color: #333764;
+padding: 20px 20px;
+
+}
+.kontak-container p {
+color: white;
+}
+
+.media-sosial a {
+display: inline-block;
+margin: 10px;
+padding: 10px 20px;
+text-decoration: none;
+color: #fff;
+text-shadow: 1px 1px 1px black;
+background : linear-gradient(to right, aqua, #fff);
+border-radius: 5px;
+}
+.tiktok a {
+display: inline-block;
+margin: 10px;
+padding: 10px 20px;
+text-decoration: none;
+color: #fff;
+background-color: aqua;
+border-radius: 5px;
+}
+
+.media-sosial a:hover {
+background-color: #0056b3;
+}
+footer {
+text-align: center;
+background-color: #333764;
+padding: 20px;
+
+}
+footer p {
+color: #fff;
+}
+  @media (max-width: 768px) {
+      .navbar-menu {
+          display: none;
+          flex-direction: column;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          right: 0;
+          background-color: aqua;
+          z-index: 1;
+      }
+
+      .navbar-menu.show {
+          display: flex;
+      }
+
+      .navbar-menu li {
+          margin: 10px 0;
+          text-decoration: none;
+      }
+
+      .navbar-menu li a {
+          margin: 10px 0;
+          text-decoration: none;
+          color: #fff;
+      }
+
+      .navbar-icon {
+          display: block;
+      }
+  }
+
+  .logo-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .logo-container img {
+        max-width: 80px;
+        height: auto;
+        margin: 0 10px;
+    }
+    .database {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .database img {
+        max-width: 80px;
+        height: auto;
+        margin: 0 10px;
+    }
+    .tools {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .tools img {
+        max-width: 80px;
+        height: auto;
+        margin: 0 10px;
+    }
+    .boot {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .boot img {
+        max-width: 80px;
+        height: auto;
+        margin: 0 10px;
+    }
